@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-nasa-gov-asteroids-neows",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TechPort RESTful API",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-nasa-gov-asteroids-neows",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "nasa-gov-asteroids-neows"

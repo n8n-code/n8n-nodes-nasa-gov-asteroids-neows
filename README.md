@@ -53,9 +53,14 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Get api, Get api projects, Get api projects format |
+<details>
+<summary><b>Default</b> (3 operations)</summary>
+
+- Get API
+- Get API Projects
+- Get API Projects Format
+
+</details>
 
 ---
 

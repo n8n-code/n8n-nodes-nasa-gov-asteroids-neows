@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class NasaGovAsteroidsNeows implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'nasa-gov-asteroids-neows',
+		displayName: 'Nasa Gov Asteroids Neows',
 		name: 'N8nDevNasaGovAsteroidsNeows',
 		icon: { light: 'file:./nasa-gov-asteroids-neows.svg', dark: 'file:./nasa-gov-asteroids-neows.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'TechPort RESTful API',
-		defaults: { name: 'nasa-gov-asteroids-neows' },
+		defaults: { name: 'Nasa Gov Asteroids Neows' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

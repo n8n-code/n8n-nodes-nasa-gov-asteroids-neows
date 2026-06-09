@@ -15,9 +15,9 @@ export const defaultDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "GET Api",
-					"value": "GET Api",
-					"action": "GET Api",
+					"name": "GET API",
+					"value": "GET API",
+					"action": "GET API",
 					"description": "Returns the swagger specification for the API.",
 					"routing": {
 						"request": {
@@ -27,9 +27,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Projects",
-					"value": "GET Api Projects",
-					"action": "GET Api Projects",
+					"name": "GET API Projects",
+					"value": "GET API Projects",
+					"action": "GET API Projects",
 					"description": "Returns information about a specific technology project.",
 					"routing": {
 						"request": {
@@ -39,9 +39,9 @@ export const defaultDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "GET Api Projects Format",
-					"value": "GET Api Projects Format",
-					"action": "GET Api Projects Format",
+					"name": "GET API Projects Format",
+					"value": "GET API Projects Format",
+					"action": "GET API Projects Format",
 					"description": "Returns a list of available technology project IDs.",
 					"routing": {
 						"request": {
@@ -67,7 +67,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api"
+						"GET API"
 					]
 				}
 			}
@@ -86,13 +86,13 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects"
+						"GET API Projects"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"required": true,
 			"description": "ID of project to fetch",
@@ -104,7 +104,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects"
+						"GET API Projects"
 					]
 				}
 			}
@@ -118,11 +118,11 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Json",
+					"name": "JSON",
 					"value": "json"
 				},
 				{
-					"name": "Xml",
+					"name": "XML",
 					"value": "xml"
 				}
 			],
@@ -140,7 +140,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects"
+						"GET API Projects"
 					]
 				}
 			}
@@ -158,7 +158,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects"
+						"GET API Projects"
 					]
 				}
 			}
@@ -177,7 +177,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects Format"
+						"GET API Projects Format"
 					]
 				}
 			}
@@ -203,7 +203,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects Format"
+						"GET API Projects Format"
 					]
 				}
 			}
@@ -217,11 +217,11 @@ export const defaultDescription: INodeProperties[] = [
 			"type": "options",
 			"options": [
 				{
-					"name": "Json",
+					"name": "JSON",
 					"value": "json"
 				},
 				{
-					"name": "Xml",
+					"name": "XML",
 					"value": "xml"
 				}
 			],
@@ -239,7 +239,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects Format"
+						"GET API Projects Format"
 					]
 				}
 			}
@@ -257,7 +257,7 @@ export const defaultDescription: INodeProperties[] = [
 						"Default"
 					],
 					"operation": [
-						"GET Api Projects Format"
+						"GET API Projects Format"
 					]
 				}
 			}

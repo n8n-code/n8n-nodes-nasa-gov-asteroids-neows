@@ -8,7 +8,7 @@ import type {
 export class NasaGovAsteroidsNeowsApi implements ICredentialType {
 	name = 'N8nDevNasaGovAsteroidsNeowsApi';
 
-	displayName = 'nasa-gov-asteroids-neows API';
+	displayName = 'Nasa Gov Asteroids Neows API';
 
 	icon: Icon = { light: 'file:../nodes/NasaGovAsteroidsNeows/nasa-gov-asteroids-neows.svg', dark: 'file:../nodes/NasaGovAsteroidsNeows/nasa-gov-asteroids-neows.dark.svg' };
 
@@ -22,7 +22,7 @@ export class NasaGovAsteroidsNeowsApi implements ICredentialType {
 			default: 'http://techport.nasa.gov/api',
 			required: true,
 			placeholder: 'http://techport.nasa.gov/api',
-			description: 'The base URL of your nasa-gov-asteroids-neows API server',
+			description: 'The base URL of your Nasa Gov Asteroids Neows API server',
 		},
 		{
 			displayName: 'API Key',
